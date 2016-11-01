@@ -3,33 +3,44 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script|Fugaz');
 
 body {
-    background-image: url("../img/background-grey.jpg");
+    background-image: url("../img/background-sun.jpg");
     background-size: cover;
     font-family: 'Book Antiqua';
     text-align: center;
     text-color: white;
 }
 
+.container-fluid {
+    text-align: center;
+    text-size: 12px;
+}
+
+#home {
+    text-align: center;
+    text-size: 12px;
+}
+
 #welcomeBanner {
-    font-size: 70px;
+    font-size: 100px;
     color: white;
     font-family: 'Dancing Script';
+    text-align: left;
+    margin-left: 45px;
+    margin-top: 40px;
 }
 
 #christyAllen {
-    font-size: 50px;
+    font-size: 60px;
     color: #fffdfe;
-    font-family: 'Fugaz One';
+    font-family: 'Dancing Script';
+    font-weight: bold;
+    margin-left: 500px;
 }
 
 #portfolioBanner {
     font-size: 70px;
     color: white;
     font-family: 'Dancing Script';
-}
-
-#aboutMe {
-    color: rgb(1, 1, 1)
 }
 
 h2 {
@@ -46,7 +57,7 @@ h2 {
     font-size: 15px;
     float: left;
     position: relative;
-    background-color: rgba(9, 91, 69, 0.93);
+    background-color: rgba(1, 1, 1, 0.93);
     font-size: 20px
 }
 
@@ -59,7 +70,7 @@ h2 {
     font-size: 15px;
     float: left;
     position: relative;
-    background-color: #2f0480;
+    background-color: #010101;
     font-size: 20px
 }
 
@@ -74,6 +85,37 @@ p {
     font-size: 20px;
     text-align: center;
 }
+
+.box {
+    width: 700px;
+    height: 200px;
+    padding: 10px;
+    color: #FFF;
+    margin-top: 50px;
+    margin-right: 50px;
+    font-size: 18px;
+    float: center;
+    position: relative;
+}
+
+#box-black {
+    background-color: black;
+    margin-left: auto;
+    margin-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    height: 300px;
+    width: 750px;
+}
+
+.box>img {
+    position: absolute;
+    top: 70px;
+    left: -50px;
+
+
+
 
 
 
