@@ -1,0 +1,28 @@
+body {
+    background-color: beige;
+    background-image: url("../img/coffee-beans-border.jpg");
+    background-size: cover;
+    text-align: center;
+}
+h1 {
+    color: chocolate;
+    font-style: italic;
+    font-size: 70px;
+p {
+    color: red;
+    font-style: italic;
+    font-size: 50px;
+}
+th {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 50px;
+}
+th, td {
+    padding: 10px;
+}
+#container {
+    margin: 50px auto;
+    width: 500px;
+    padding: 10px;
+}

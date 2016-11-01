@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza Palace</title>
+    <link rel="stylesheet" href="css/pizza.css">
+</head>
+<body>
+<form method="POST" action="">
+    <p>
+        <img src="img/pizza.jpeg" height="200" width="1000"/>
+    <h1>PIZZA PALACE</h1>
+    <div>
+        <label for="email">To begin your order, please enter your email</label>
+        <input type="text" id="email" name="email" placeholder="email">
+    </div>
+    </p>
+    <p>Please check all of the items you want on your pizza:</p>
+    <label><input type="checkbox" id="pepperoni" name="pepperoni[]" value="pepperoni"> pepperoni </label>
+    <label><input type="checkbox" id="tomato" name="tomato[]" value="tomato"> tomato </label>
+    <label><input type="checkbox" id="ham" name="ham[]" value="ham"> ham </label>
+    <label><input type="checkbox" id="extra cheese" name="extra cheese" value="extra cheese"> extra cheese </label>
+    <label><input type="checkbox" id="basil" name="basil[]" value="basil"> basil </label>
+    <label><input type="checkbox" id="sausage" name="sausage[]" value="sausage"> sausage </label>
+    <p>Would you like pick up or delivery?
+    <p/>
+    <label>
+        <input type="radio" name="q1" value="pickup">
+        Pick Up
+    </label>
+    <label>
+        <input type="radio" name="q1" value="delivery">
+        Delivery
+    </label>
+    <br>
+    <p>
+        <label for="crust">Please select your crust: </label>
+        <select id="crust" name="crust">
+            <option>Thick</option>
+            <option>Thin</option>
+        </select>
+    </p>
+    <br>
+    </form>
+</body>
+</html>
