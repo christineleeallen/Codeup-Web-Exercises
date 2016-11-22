@@ -67,11 +67,20 @@ p {
 
 /* PORFOLIO */
 
-h1 {
+
+.container-fluidbg-3text-center {
+    background-color: #bc8a07;
+}
+
+.jumbotron {
+    background-color: #bc8a07;
+    color: white;
     font-family: 'Satisfy';
 }
 
-
+h1 {
+    margin-bottom: 5%;
+}
 
 
 /* CONTACT FORM */
@@ -79,8 +88,6 @@ h1 {
 .space{
     margin-top: 100px;
 }
-
-
 
 /*CONTACT FORM*/
 
