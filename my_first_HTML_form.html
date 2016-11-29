@@ -24,6 +24,99 @@
 
         </p>
     </form>
+    <br>
+    <form method="POST" action="/my_first_form.php">
+        <h3>To</h3>
+        <p>
+            <label for="to">To</label>
+            <input type="text" id="to" name="to" placeholder="To">
+        <h3>From</h3>
+        </p>
+        <p>
+            <label for="From">From</label>
+            <input type="text" id="From" name="From" placeholder="From">
+        </p>
+        <h3>Subject</h3>
+        <p>
+            <label for="Subject">Subject</label>
+            <input type="text" id="Subject" name="Subject" placeholder="Subject">
+        </p>
+        <h3>Body</h3>
+        <p>
+            <label for="Body">Body</label>
+            <input type="Body" id="Body" name= "Body" placeholder="Body">
+        </p>
+        <p>
+        <h3>Compose An Email</h3>
+
+            <label for="ComposeAnEmail">Compose An Email</label>
+            <input type="text" name="ComposeAnEmail" placeholder="ComposeAnEmail">
+            <input type="checkbox" id="composeAnEmail" name="composeAnEmail" value="yes">
+            <label for="composeAnEmail">Save A Copy To Your Sent Folder?</label>
+        </p>
+
+        <p>
+            <input value="send" name="Christy" type="button">
+        </p>
+    </form>
+    <br>
+    <form>
+        <h3>Multiple Choice Test</h3>
+        <p>What is the capital of Texas?</p>
+        <label>
+            <input type="radio" name="q1" value="houston">
+            Houston
+        </label>
+        <label>
+            <input type="radio" name="q1" value="dallas">
+            Dallas
+        </label>
+        <label>
+            <input type="radio" name="q1" value="san antonio">
+            San Antonio
+        </label>
+    </form>
+    <br>
+    <form>
+        <p>
+            <h3>Do you want your receipt mailed to you?</h3>
+                <input type="checkbox" id="mailReceipt" name="mailReceipt" value="yes">
+                <label for="mailReceipt">Mail Receipt</label>
+        </p>
+    </form>
+    <br>
+    <form>
+        <p>What operating systems have you used?</p>
+        <label><input type="checkbox" id="os1" name="os[]" value="linux"> Linux</label>
+        <label><input type="checkbox" id="os2" name="os[]" value="osx"> OS X</label>
+        <label><input type="checkbox" id="os3" name="os[]" value="windows"> Windows</label>
+    </form>
+    <br>
+        <p>What operating systems have you NEVER used? (option 2)</p>
+        <label for="os">What operating systems have you NEVER used? </label>
+        <select id="os" name="os[]" multiple>
+            <option value="linux">Linux</option>
+            <option value="osx">OS X</option>
+            <option value="windows">Windows</option>
+        </select>
+    <br>
+    <form>
+        <h3>Select Testing</h3>
+            <label for="yellow">Which color do you like?</label>
+            <select id="blue" name="blue">
+                <option>Yellow</option>
+                <option selected>Blue</option>
+            </select>
+    </form>
+    <br>
+    <form>
+        <h3>Select Testing Option 2</h3>
+            <label for="yellow">Which color do you like? </label>
+            <select id="yellow" name="yellow">
+                <option value="1">Yellow</option>
+                <option value="0">Blue</option>
+            </select>
+    </form>
 
 
 </body>

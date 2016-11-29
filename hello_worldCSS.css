@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Fugaz');
+
+body {
+    background-color: #c8f7e3;
+    background-image: url("../../img/background-green.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: "American Typewriter";
+}
+
+ol { list-style: upper-alpha;
+}
+
+ul {
+    list-style: square;
+}
+
+p, h2, div {
+    color: purple;
+    font-family: 'American Typewriter';
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: 'Dancing Script';
+}
+
+p {
+    color: #8450ff;
+}
+
+th {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+th, td {
+    padding: 10px;
+}
+
+a:link {
+    color: #080656
+}
+
+a:visited {
+    color: #be7020
+}
+
+a:hover {
+    color: #d2153e
+}
+
+a:active {
+    color: rgba(9, 116, 34, 0.93);
+}
+
+
+
+

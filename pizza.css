@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Itim');
+body {
+    background-color: lightyellow;
+    background-image: url("../../img/whitey.png");
+    background-size: contain;
+    text-align: center;
+    font-family: 'Itim';
+}
+h1 {
+    color: darkblue;
+    font-style: italic;
+    font-size: 70px;
+}
+p {
+    color: red;
+    font-style: italic;
+    font-size: 50px;
+}
+ul {
+    list-style: square;
+}
+th {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 50px;
+}
+th, td {
+    padding: 10px;
+}
+a:link {
+    color: purple;
+}
+a:visited {
+    color: aquamarine;
+}
+a:hover {
+    color: chocolate;
+}
+a:active {
+    color: azure;
+}
+#container {
+    margin: 50px auto;
+    width: 500px;
+    padding: 10px;
+}

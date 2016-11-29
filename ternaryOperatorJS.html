@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ternary Operator</title>
+</head>
+<body>
+
+    <script>
+        // It generates a random number between 1 and 100 and stores it in random
+        var random = Math.floor((Math.random()*100)+1);
+        console.log('Random number is: ' + random.toString());
+
+        // TODO:
+        // Create a function called 'isOdd' that takes a number as a parameter.
+        // The function should use the ternary operator to log a message.
+        // The log should tell the number passed in and whether it is odd or not.
+        function isOdd(numberToTest) {
+            (numberToTest % 2 === 1) ? console.log('Number was odd') : console.log('Number was even');
+        }
+
+        // TODO: Call the function 'isOdd' passing the variable 'random' as a parameter.
+        isOdd(random);
+    </script>
+
+</body>
+</html>
